@@ -29,7 +29,7 @@ Some of the benefits of writing code functionally, as opposed to in an object-or
 
 * Since functions are first-class citizens, they can be reused in multiple contexts to reliably _do their jobs_ given the right parameters.
 * (Pure) functions are stateless and _don't care about state_, but just take inputs and return output and are therefore safer.
-* Because of the previous two points, a functional style promotes good principles like [modular design](https://en.wikipedia.org/wiki/Modular_design), [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns), and immutability (more on that below).
+* Because of the previous two points, a functional style promotes good principles like [modular design](https://en.wikipedia.org/wiki/Modular_design), [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns), and [immutability](https://github.com/TejasQ/favorite-javascript-flavors#immutable).
 
 ### [Declarative](https://en.wikipedia.org/wiki/Declarative_programming)
 
