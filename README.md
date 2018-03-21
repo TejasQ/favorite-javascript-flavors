@@ -153,8 +153,8 @@ The reasons that I do not prefer (or advocate) this style of JavaScript are beca
 * More concretely, it promotes thinking in terms of [inheritance](<https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)>) over more [functional composition](https://en.wikipedia.org/wiki/Object_composition).
   * Composing things together allows higher flexibility.
   * Composition allows creating components that _work together_ instead of trying to find commonalities between pre-existing _things_.
-    * For example, a _car_ has an _exhaust_ and a _wheel_: we can say a car is a composition of those parts, that work faithfully, or better yet, a car _**has an**_ exhaust.
-    * The object-oriented version of this would be more based around a model of a Car, that _**is a**_ _thing_ that comes with an exhaust and a wheel: the exhaust and wheel _are parts of the car_ and thus, are tightly coupled to it and cannot be independently modularized, run, tested, or composed with other parts to make a... say an _airplane_ or _cruise ship_.
+    * For example, a _car_ has an _exhaust_ and a _wheel_: we can say a car is a composition of those parts, that work faithfully, or better yet, a car _**has an**_ exhaust and a wheel.
+    * The object-oriented version of this would be more based around a model of a Car, that _**is a**_ _thing_ that comes with an exhaust and a wheel: the exhaust and wheel _are parts of the car_ and thus, are tightly coupled to it and cannot be independently modularized, run, tested, or composed with other parts to make a... say an _airplane_ or _cruise ship_, both of which _also_ have wheels and exhausts.
       * This is my chief issue with inheritance: it presents the [gorilla-banana problem](https://www.johndcook.com/blog/2011/07/19/you-wanted-banana/).
 
 ### [Imperative](https://en.wikipedia.org/wiki/Imperative_programming)
