@@ -36,13 +36,13 @@ Some of the benefits of writing code functionally, as opposed to in an object-or
 Declarative code is basically code that describes _what_ to do, as opposed to _how_ to do it. Consider a simple problem of incrementing each array element by a number:
 
 ```js
-const myArray = [1, 2, 3];
-const addToArray = numberToAdd => myArray.map(arrayItem => arrayItem + numberToAdd);
+const addToArray = (array, numberToAdd) => array.map(arrayItem => arrayItem + numberToAdd);
 
-addToArray(3); // [4, 5, 6];
+const myArray = [1, 2, 3];
+addToArray(myArray, 3); // [4, 5, 6];
 ```
 
-We can already see how the first-class nature of functions comes in handy here: the thing inside `myArray.map()` is a function!
+We can already see how the first-class nature of functions comes in handy here: the thing inside `array.map()` is a function!
 
 The advantage of declarative code (which is usually an abstraction on top of some imperative code) is that it plain and simply _declares_ an action, instead of describing a _course of action_, allowing more terse code that can be clearly tested for functionality: `doThat()` can be more clearly tested than `for (var _i; _i < something; _i++) { /* do something */ }`.
 
