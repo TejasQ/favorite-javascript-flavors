@@ -159,7 +159,7 @@ The reasons that I do not prefer (or advocate) this style of JavaScript are beca
 
 ### [Imperative](https://en.wikipedia.org/wiki/Imperative_programming)
 
-Imperative code is basically code that describes _how_ to do an operation, as opposed to _what is being done_. Typically, one would find imperative code under a more declarative abstraction. Consider a case where one would want to find the first odd number in a list of numbers:
+Imperative code is basically code that describes _how_ to do an operation, as opposed to _what_ is being done. Typically, one would find imperative code under a more declarative abstraction. Consider a case where one would want to find the first odd number in a list of numbers:
 
 ```js
 const numbers = [4, 6, 10, 12, 13, 14, 15, 16, 17];
@@ -174,7 +174,7 @@ for (let _i = 0; _i < numbers.length; _i++) {
 
 That approach basically says
 
-> okay, I know what we need to do! Here's how we'll do it: we'll iterate through each one of them and then check if it has a 1 remained when divided by 2 and then store it in a variable.
+> okay, I know what we need to do! Here's how we'll do it: we'll iterate through each one of them and then check if it has a 1 remainder when divided by 2 and then store it in a variable.
 
 In other words, it says _how to do it_. Cool, but I prefer a more declarative abstraction:
 
