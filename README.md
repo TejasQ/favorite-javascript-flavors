@@ -191,7 +191,7 @@ In other words, it says _what_ to do. In large codebases, as a developer, I tend
 
 ### Mutable
 
-I won't say much about this. Basically, if code is being mutated throughout a codebase, it can be a potential nightmare to find out what changed where and caused what bug and how and why and aipegaepgjaepgjaepgaeg.
+I won't say much about this. Basically, if code is being mutated throughout a codebase, it can be a potential nightmare to find out what changed where and caused what bug and how and why and _aipegaepgjaepgjaepgaeg_.
 
 ## Conclusion
 
